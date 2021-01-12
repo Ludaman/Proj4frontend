@@ -20,4 +20,4 @@ COPY . .
 EXPOSE 8100
 
 # Define the Docker image's behavior at runtime
-CMD ["ionic", "serve"]
+CMD ["ionic", "serve --external"]

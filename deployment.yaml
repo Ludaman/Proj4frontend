@@ -5,7 +5,7 @@ metadata:
   labels:
     app: frontend
 spec:
-  replicas: 0
+  replicas: 1
   selector:
     matchLabels:
       app: frontend
@@ -19,4 +19,3 @@ spec:
         image: ludaman64/proj4frontend
         ports:
         - containerPort: 8100
-
