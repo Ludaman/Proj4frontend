@@ -7,7 +7,7 @@ export const environment = {
   appName: 'Udagram',
   //apiHost: 'http://localhost:8080/api/v0'
   //apiHost: 'http://reverseproxy-svc:8080/api/v0'//this is the nginx router to get the requests to the proper location
-  apiHost: 'http://a18de6ea9fcc742029c769524a3d697c-1885710625.us-west-1.elb.amazonaws.com:8080/api/v0'//this is the nginx router to get the requests to the proper location
+  apiHost: 'aa8f8595f95bb4202803e536c6a0dfd1-1235067813.us-west-1.elb.amazonaws.com :8080/api/v0'//this is the nginx router to get the requests to the proper location
 
   
 };
